@@ -21,7 +21,9 @@
 > 꼭 이 글이 아니더라도, 다른 글들을 참고하면서 해도 괜찮습니다.<br>  
 > [Git을 이용한 협업: Fork 부터 Pull Request 까지](https://seungwubaek.github.io/tools/git/contributing_using_pull_request/)
 
-## 3️⃣ 커밋 메시지 규칙
+<br>
+
+## 2️⃣ 커밋 메시지 규칙
 
 ### 형식
 
@@ -30,10 +32,6 @@ Type :: Title
 
 Body
 ```
-
-<br>
-
-## 2️⃣ 커밋 메시지 규칙
 
 ### 상세 규칙
 
