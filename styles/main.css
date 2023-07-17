@@ -1,0 +1,14 @@
+body {
+  margin : 0;
+  height: 100vh;
+  width: 100%;
+}
+main {
+  background-image: url(../imgs/background_img.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.6);
+  height: 100%;
+  width: 100%;
+}
