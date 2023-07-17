@@ -47,6 +47,11 @@ img{
   height: 396px;
   outline: 1px dotted red;
 }
+.textbox{
+  width: 457px;
+  height: 270px;
+  outline: 1px dotted red;
+}
 .text{
   width: 457px;
   height: 188px;
@@ -56,6 +61,16 @@ img{
   font-weight: 700;
   font-size: 72px;
   letter-spacing: -1.5px;
+  color: #fff;
 }
-
+.text2{
+  padding-top: 24px;
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: -0.15px;
+  vertical-align: bottom;
+  color: #BBBCC2;
+}
 
