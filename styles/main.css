@@ -4,11 +4,10 @@ body {
   width: 100%;
 }
 main {
-  background-image: url(../imgs/background_img.png);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../imgs/background_img.png);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  filter: brightness(0.6);
   height: 100%;
   width: 100%;
 }
