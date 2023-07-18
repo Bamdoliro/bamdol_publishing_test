@@ -48,9 +48,10 @@
   background-color: #257CFF;
   border: none;
   color: white;
-  font-size: 16px;
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
+  font-size: 18px;
   font-weight: 600;
-  padding-right: 30px;
+  padding-right: 35px;
   margin-right: 130px;
 }
 #str_btn:hover{
