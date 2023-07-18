@@ -25,19 +25,31 @@ img{
   height: 64px;
   outline: 1px dotted red;
 }
+.logo{
+  padding-top: 16px;
+  width: 106.06px;
+  height: 32px;
+  float: left;
+  padding-left: 125px;
+}
 #menu {
   position: absolute;
   top: 64px;
   left: 110px;
-  width: 1241px;
+  width: 1240px;
   height: 54px;
   outline: 1px dotted red;
 }
 #menu ul li{
   float: left;  
   height: 50px; 
-  line-height: 50px; 
   text-align: center;
+  color: white;
+  padding: 10px 12px;
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 #main{
   position: absolute;
@@ -47,30 +59,3 @@ img{
   height: 396px;
   outline: 1px dotted red;
 }
-.textbox{
-  width: 457px;
-  height: 270px;
-  outline: 1px dotted red;
-}
-.text{
-  width: 457px;
-  height: 188px;
-  outline: 1px dotted red;
-  line-height: 93.6px;
-  font-family: Pretendard,'Noto Sans KR', sans-serif;
-  font-weight: 700;
-  font-size: 72px;
-  letter-spacing: -1.5px;
-  color: #fff;
-}
-.text2{
-  padding-top: 24px;
-  font-family: Pretendard,'Noto Sans KR', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28.8px;
-  letter-spacing: -0.15px;
-  vertical-align: bottom;
-  color: #BBBCC2;
-}
-
