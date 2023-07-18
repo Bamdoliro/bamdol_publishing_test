@@ -1,18 +1,25 @@
-#top ul li{  
-  float: left;
-  text-align: center;
-  color: white;
-  font-family: Pretendard,'Noto Sans KR', sans-serif;
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 90px;
+}
+.top ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#top_font{
+  font-family: Pretendard, 'Noto Sans KR', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  color: white;
+}
+.top ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 12px;
-}
-.btn1{
-  padding-left: 1200px;
-  padding-top: 2px;
-}
-.login{
-  padding-top: 12px;
 }
 #join{
   width: 88px;
@@ -32,11 +39,11 @@
   padding-top: 70px;
   padding-right: 150px;
 }
-#receipt{
+#str_btn{
   position: relative;
   width: 205px;
   height: 54px;
-  font-family: Pretendard,'Noto Sans KR', sans-serif;
+  margin-top: 50px;
   border-radius: 6px;
   background-color: #257CFF;
   border: none;
@@ -44,14 +51,13 @@
   font-size: 16px;
   font-weight: 600;
   padding-right: 30px;
+  margin-right: 130px;
 }
-#receipt:hover{
+#str_btn:hover{
   background-color: #186EEE;
 }
 .arrow{
   position: absolute;
-  width: 17.617px;
-  height: 16px;
-  padding-top: 1px;
-  padding-left: 10px;
+  padding-top: 3px;
+  padding-left: 8px;
 }

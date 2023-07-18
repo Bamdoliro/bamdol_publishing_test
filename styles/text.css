@@ -1,25 +1,26 @@
-.textbox{
-    width: 457px;
-    height: 270px;   
-}
-.text{
+.text_box{
     width: 457px;
     height: 188px;
+}
+.text_font{
     line-height: 93.6px;
-    font-family: Pretendard,'Noto Sans KR', sans-serif;
     font-weight: 700;
     font-size: 72px;
     letter-spacing: -1.5px;
     color: #fff;
 }
-.text2{
+.text_box2{
     height: 82px;
-    padding-top: 24px;
-    font-family: Pretendard,'Noto Sans KR', sans-serif;
+    padding-top: 25px;
+    margin-right: 130px;
+}
+.text2_font{
     font-weight: 400;
     font-size: 18px;
     line-height: 28.8px;
     letter-spacing: -0.15px;
+}
+.text2{
     vertical-align: bottom;
     color: #BBBCC2;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/reset.css" rel="stylesheet">
     <link href="./styles/style.css" rel="stylesheet">
+    <link href="./styles/header.css" rel="stylesheet">
     <link href="./styles/button.css" rel="stylesheet">
     <link href="./styles/text.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
@@ -14,40 +15,41 @@
 <body>
     <main>
         <div class="container">
-            <img src="img/bssm.png"style="width:100%;">
-                <div id="top">
-                    <img class="logo" src="img/logo.png">
-                    <div class="btn1">
+            <nav>
+                <div class="top">
+                    <img class="logo" src="img/logo.svg" alt="logo">
+                    <div id="top_font">
                         <ul>
-                            <li><p class="login">로그인</p></li>
+                            <li>로그인</li>
                             <li><button id="join">회원가입</button></li>
                         </ul>
                     </div>
-                    <div class="square"></div>
                 </div>
                 <div id="menu">
-                    <ul>
-                        <li>홈</li>
-                        <li>원서접수</li>
-                        <li>공지사항</li>
-                        <li>자주 묻는 질문</li>
-                    </ul>
-                </div>
-                <div id="main">
-                    <div class="textbox">
-                        <div class="text">
-                            <p>꿈을 향한 도전,</p>
-                            <p>미래를 여는 학교</p>
-                        </div>
-                        <div class="text2">
-                            <p>부산소마고는 소프트웨어에 관심있는 학생들의 </p>
-                            <p>꿈을 향한 도전을 아낌없이 지원합니다.</p>
-                        </div>
-                    </div>
-                    <div class="btn2">
-                        <button id="receipt">원서 접수 시작하기<img class="arrow" src="img/arrow.png"></button>
+                    <div id="menu_font">
+                        <ul>
+                            <li>홈</li>
+                            <li>원서접수</li>
+                            <li>공지사항</li>
+                            <li>자주 묻는 질문</li>
+                        </ul>
                     </div>
                 </div>
+            </nav>
+            <div id="main">
+                <div class="text_box">
+                    <div class="text_font">
+                        <p class="text">꿈을 향한 도전,</p>
+                        <p class="text">미래를 여는 학교</p>
+                    </div>
+                </div>
+                <div class="text_box2">
+                    <div class="text2_font">
+                        <p class="text2">부산소마고는 소프트웨어에 관심있는 학생들의 </p>
+                        <p class="text2">꿈을 향한 도전을 아낌없이 지원합니다.</p>
+                    </div>
+                </div>
+                <button id="str_btn">원서 접수 시작하기<img class="arrow" src="img/arrow_forward.svg" alt="arrow"></button>
             </div>
         </div>
     </main>

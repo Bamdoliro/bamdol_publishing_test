@@ -1,64 +1,16 @@
-*{
-  padding: 0px;
-  margin: 0px;
-}
-body,
 html{
-  width: 1440px;
-  height: 800px;
+  height: 100vh;
+  background: url("../img/bssm.png") center no-repeat;
 }
 .container {
   position: relative;
   text-align: center;
   padding-left: 100px;
-}
-img{
-  width: 1440px;
-  height: 800px;
-}
-#top{
-  position: absolute;
-  top: 0px;
-  right: 12px;
-  width: 1440px;
-  height: 64px;
-  padding-left: 100px;
-}
-.square{
-  padding-left: 800px;
-  width: 1440px;
-  height: 800px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.logo{
-  padding-top: 16px;
-  width: 106.06px;
-  height: 32px;
-  float: left;
-  padding-left: 225px;
-}
-#menu {
-  position: absolute;
-  top: 64px;
-  left: 110px;
-  width: 1240px;
-  height: 54px;
-  padding-left: 100px;
-}
-#menu ul li{
-  float: left;  
-  height: 50px; 
-  text-align: center;
-  color: white;
-  padding: 10px 12px;
   font-family: Pretendard,'Noto Sans KR', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 23.4px;
 }
 #main{
   position: absolute;
-  top: 202px;
+  top: 195px;
   left: 550px;
   width: 600px;
   height: 396px;
