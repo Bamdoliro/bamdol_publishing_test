@@ -6,12 +6,11 @@ body,
 html{
   width: 1440px;
   height: 800px;
-  outline: 1px dotted red;
 }
 .container {
   position: relative;
   text-align: center;
-  color: #0000ff;
+  padding-left: 100px;
 }
 img{
   width: 1440px;
@@ -23,14 +22,20 @@ img{
   right: 12px;
   width: 1440px;
   height: 64px;
-  outline: 1px dotted red;
+  padding-left: 100px;
+}
+.square{
+  padding-left: 800px;
+  width: 1440px;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .logo{
   padding-top: 16px;
   width: 106.06px;
   height: 32px;
   float: left;
-  padding-left: 125px;
+  padding-left: 225px;
 }
 #menu {
   position: absolute;
@@ -38,7 +43,7 @@ img{
   left: 110px;
   width: 1240px;
   height: 54px;
-  outline: 1px dotted red;
+  padding-left: 100px;
 }
 #menu ul li{
   float: left;  
@@ -54,8 +59,7 @@ img{
 #main{
   position: absolute;
   top: 202px;
-  left: 492px;
-  width: 457px;
+  left: 550px;
+  width: 600px;
   height: 396px;
-  outline: 1px dotted red;
 }

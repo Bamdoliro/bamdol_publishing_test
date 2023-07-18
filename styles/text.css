@@ -1,12 +1,10 @@
 .textbox{
     width: 457px;
-    height: 270px;
-    outline: 1px dotted red;
+    height: 270px;   
 }
 .text{
     width: 457px;
     height: 188px;
-    outline: 1px dotted red;
     line-height: 93.6px;
     font-family: Pretendard,'Noto Sans KR', sans-serif;
     font-weight: 700;

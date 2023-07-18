@@ -25,10 +25,15 @@
   font-size: 16px;
   font-weight: 500;
 }
+#join:hover{
+  background-color: #186EEE;
+}
 .btn2{
   padding-top: 70px;
+  padding-right: 150px;
 }
 #receipt{
+  position: relative;
   width: 205px;
   height: 54px;
   font-family: Pretendard,'Noto Sans KR', sans-serif;
@@ -38,10 +43,15 @@
   color: white;
   font-size: 16px;
   font-weight: 600;
+  padding-right: 30px;
+}
+#receipt:hover{
+  background-color: #186EEE;
 }
 .arrow{
-  width: 17.62px;
+  position: absolute;
+  width: 17.617px;
   height: 16px;
-  padding-right: 20px;
-  padding-left: 5px;
+  padding-top: 1px;
+  padding-left: 10px;
 }
