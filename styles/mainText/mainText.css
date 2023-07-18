@@ -38,7 +38,7 @@
   letter-spacing: -0.15px;
 }
 #start {
-  background-color: #257CFF;
+  background-color: #186EEE;
   display: flex;
   flex-direction: row;
   height: 54px;
@@ -54,6 +54,9 @@
   line-height: 130%;
   border: none;
   border-radius: 6px;
+}
+#start:hover {
+  background-color: #257CFF;
 }
 #start p {
   margin: 0;

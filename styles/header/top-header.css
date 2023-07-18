@@ -31,8 +31,11 @@ header {
   background-color: rgba(0, 0, 0, 0);
   border: none;
 }
+#signin:hover {
+  background-color: #292C35;
+}
 #signup {
-  background-color: #257CFF;
+  background-color: #186EEE;
   color: #ffffff;
   border: none;
   border-radius: 6px;
@@ -42,4 +45,7 @@ header {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+#signup:hover {
+  background-color: #257CFF;
 }
