@@ -21,11 +21,6 @@ nav button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Pretendard;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 130%;
 }
 nav button div:hover {
   background-color: #292C35;
