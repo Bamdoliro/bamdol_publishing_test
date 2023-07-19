@@ -40,7 +40,6 @@
 #start {
   background-color: #186EEE;
   display: flex;
-  flex-direction: row;
   height: 54px;
   padding: 0px 20px 0px 22px;
   justify-content: center;
