@@ -52,25 +52,13 @@
 #start:hover {
   background-color: #257CFF;
 }
-#start p {
-  margin: 0;
-}
 #start > div {
   display: flex;
   gap: 10px;
 }
-
-.arrow-layout {
-  display: flex;
+.arrow-layout img {
   width: 20px;
-  height: 20px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 18px;
   gap: 10px;
   margin: 0;
-}
-.arrow-layout img {
-  width: 17.617px;
-  height: 16px;
 }
