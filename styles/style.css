@@ -1,11 +1,9 @@
-html{
+.container {
   height: 100vh;
   background: url("../img/bssm.png") center no-repeat;
-}
-.container {
   position: relative;
   text-align: center;
-  padding-left: 100px;
+  padding-left: 0 100px;
   font-family: Pretendard,'Noto Sans KR', sans-serif;
 }
 #main{

@@ -4,18 +4,17 @@
     right: 12px;
     width: 1440px;
     height: 64px;
-    padding-left: 100px;
+    padding: 0 100px;
 }
 .logo{
-    padding-top: 16px;
-    padding-left: 110px;
+    padding: 16px 110px;
 }
 #menu {
     position: absolute;
     top: 64px;
     width: 1240px;
     height: 54px;
-    padding-left: 100px;
+    padding: 0 100px;
 }
 #menu ul{
     margin: 0;
