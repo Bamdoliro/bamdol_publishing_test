@@ -1,0 +1,15 @@
+.layout {
+  height: 100vh;
+  background: url("../img/bssm.png") center no-repeat;
+  position: relative;
+  text-align: center;
+  padding-left: 0 100px;
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
+}
+#main{
+  position: absolute;
+  top: 195px;
+  left: 550px;
+  width: 600px;
+  height: 396px;
+}

@@ -1,0 +1,36 @@
+#top{
+    position: absolute;
+    top: 0px;
+    right: 12px;
+    width: 1440px;
+    height: 64px;
+    padding: 0 100px;
+}
+.logo{
+    padding: 16px 110px;
+}
+#menu {
+    position: absolute;
+    top: 64px;
+    width: 1240px;
+    height: 54px;
+    padding: 0 100px;
+}
+#menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#menu_font{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+#menu ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 50px; 
+    color: white;
+    padding: 10px 12px;
+}

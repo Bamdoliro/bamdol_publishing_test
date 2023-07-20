@@ -1,0 +1,24 @@
+.mainText{
+    width: 457px;
+    height: 188px;
+}
+.mainText_font{
+    line-height: 93.6px;
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: -1.5px;
+    color: #fff;
+}
+.underText{
+    height: 82px;
+    padding: 25px;
+    margin-right: 130px;
+}
+.underText_font{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: -0.15px;
+    vertical-align: bottom;
+    color: #BBBCC2;
+}

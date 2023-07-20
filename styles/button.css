@@ -1,0 +1,61 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 90px;
+}
+.top ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#top_font{
+  font-family: Pretendard, 'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+.top ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 12px;
+}
+#join{
+  width: 88px;
+  height: 40px;
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
+  border-radius: 6px;
+  background-color: #257CFF;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+#join:hover{
+  background-color: #186EEE;
+}
+#str_btn{
+  display: flex;
+  align-items: center;
+  width: 205px;
+  height: 54px;
+  border-radius: 6px;
+  background-color: #257CFF;
+  border: none;
+  color: white;
+  font-family: Pretendard,'Noto Sans KR', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 130px;
+  padding-left: 25px;
+}
+#str_btn:hover{
+  background-color: #186EEE;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
