@@ -1,0 +1,51 @@
+header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0px 100px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.sign-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#signin {
+  display: flex;
+  height: 40px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+#signin:hover {
+  background-color: #292C35;
+}
+#signup {
+  background-color: #186EEE;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  height: 40px;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#signup:hover {
+  background-color: #257CFF;
+}

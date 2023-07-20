@@ -4,12 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/header/top-header.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/header/bottom-header.css" rel="stylesheet" type="text/css" />
+    <link href="./styles/Texts/mainText.css" rel="stylesheet" type="text/css" />
     <title>밤돌이로</title>
 </head>
 <body>
     <main>
-        <!-- 코드를 작성해주세요. -->
+        <header>
+            <div class="top-header">
+                <div class="logo">
+                    <img src="imgs/logo.svg" alt="logo">
+                </div>
+                <div class="sign-button">
+                    <button id="signin"><p>로그인</p></button>
+                    <button id="signup"><p>회원가입</p></button>
+                </div>
+            </div>
+            <div class="bottom-header">
+                <nav>
+                    <button>
+                        <div class="small-font">
+                            홈
+                        </div>
+                    </button>
+                    <button>
+                        <div class="small-font">
+                            원서접수
+                        </div>
+                    </button>
+                    <button>
+                        <div class="small-font">
+                            공지사항
+                        </div>
+                    </button>
+                    <button>
+                        <div class="small-font">
+                            자주 묻는 질문
+                        </div>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <div class="mainText-layout">
+            <div class="mainText">
+                <div class="content">
+                    <p id="title">꿈을 향한 도전,<br>미래를 여는 학교</p>
+                    <p id="sub-title">부산소마고는 소프트웨어에 관심있는 학생들의<br>꿈을 향한 도전을 아낌없이 지원합니다.</p>
+                </div>
+                <button id="start" class="small-font">
+                    원서 접수 시작하기
+                    <img src="./imgs/arrow_forward.svg" alt="arrow-icon"/>
+                </button>
+            </div>
+        </div>
     </main>
 </body>
 </html>
